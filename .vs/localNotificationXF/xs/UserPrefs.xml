@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{D37FF931-1D69-4B5A-97AB-5DCA179EAEDB}|Default">
+  <MonoDevelop.Ide.ItemProperties.localNotificationXF.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4A56D825-92AA-4F29-A758-DF701E2F24C5" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="localNotificationXF/Services/NotificationEventArgs.cs">
+    <Files>
+      <File FileName="localNotificationXF.iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="localNotificationXF.iOS/Info.plist" />
+      <File FileName="localNotificationXF.iOS/Entitlements.plist" />
+      <File FileName="localNotificationXF.iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="localNotificationXF.iOS/Services/iOSNotificationManager.cs" Line="1" Column="1" />
+      <File FileName="localNotificationXF.iOS/Services/iOSNotificationReceiver.cs" Line="1" Column="1" />
+      <File FileName="localNotificationXF.iOS/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="localNotificationXF.Android/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="localNotificationXF/App.xaml" Line="1" Column="1" />
+      <File FileName="localNotificationXF/MainPage.xaml" Line="10" Column="48" />
+      <File FileName="localNotificationXF/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="localNotificationXF/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="localNotificationXF/Services/INotificationManager.cs" Line="1" Column="1" />
+      <File FileName="localNotificationXF/Services/NotificationEventArgs.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="localNotificationXF" expanded="True">
+            <Node name="localNotificationXF" expanded="True">
+              <Node name="Services" expanded="True">
+                <Node name="NotificationEventArgs.cs" selected="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.localNotificationXF.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

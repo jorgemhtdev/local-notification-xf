@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="localNotificationXF.MainPage">
+
+    <StackLayout VerticalOptions="CenterAndExpand" Spacing="10">
+        <Button
+            Clicked="OnSendClick"
+            HorizontalOptions="Center"
+            Text="Local Notification Con Fecha" />
+        <Button
+            Clicked="OnScheduleClick"
+            HorizontalOptions="Center"
+            Text="Programación De La Notificación" />
+    </StackLayout>
+</ContentPage>
