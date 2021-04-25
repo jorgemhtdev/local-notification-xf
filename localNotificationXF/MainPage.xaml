@@ -17,8 +17,6 @@
             Clicked="OnSendClick"
             HorizontalOptions="Center"
             Text="Notificación tipo UNTimeIntervalNotificationTrigger" />
-
-        <Label x:Name="labelNot" />
-
+      
     </StackLayout>
 </ContentPage>
