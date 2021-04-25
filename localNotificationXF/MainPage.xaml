@@ -10,14 +10,12 @@
        <Button
             Clicked="OnScheduleClick"
             HorizontalOptions="Center"
-            Text="Local Notification Con Fecha" />
             Text="Notificación tipo UNCalendarNotificationTrigger" />
 
         <Button
             Clicked="OnScheduleClick"
             Clicked="OnSendClick"
             HorizontalOptions="Center"
-            Text="Programación De La Notificación" />
             Text="Notificación tipo UNTimeIntervalNotificationTrigger" />
 
         <Label x:Name="labelNot" />
