@@ -17,23 +17,22 @@
             notificationManager.NotificationReceived += (sender, eventArgs) =>
             {
                 var evtData = (NotificationEventArgs)eventArgs;
+                // NOTIFICACIÓN RECIBIDA => REALIZAR OPERACIÓN X
             };
-        }
-
-        void OnSendClick(object sender, EventArgs e)
-        {
-            string title = $"Recordatorio";
-            string subtitle = string.Empty;
-            string message = $"Recuerde sincronizar todos los informes";
-            notificationManager.SendNotification(title, subtitle, message);
         }
 
         void OnScheduleClick(object sender, EventArgs e)
         {
-            string title = $"Ubicación";
+            string title = $"Notifiación Molona";
             string subtitle = string.Empty;
-            string message = $"Ha salido de su zona comercial";
+            string message = $"Notificación programada hace 10 seg";
             notificationManager.SendNotification(title, subtitle, message, DateTime.Now.AddSeconds(10));
+        }
+
+        void OnSendClick(object sender, EventArgs e)
+        {
+            string message = $"Recuerde sincronizar todos los informes";
+            notificationManager.SendNotification(title, subtitle, message);
         }
     }
 }
