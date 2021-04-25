@@ -31,6 +31,8 @@
 
         void OnSendClick(object sender, EventArgs e)
         {
+            string title = $"Notifiación Molona";
+            string subtitle = string.Empty;
             string message = $"Recuerde sincronizar todos los informes";
             notificationManager.SendNotification(title, subtitle, message);
         }
