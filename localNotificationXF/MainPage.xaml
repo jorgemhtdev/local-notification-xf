@@ -4,8 +4,6 @@
              x:Class="localNotificationXF.MainPage">
 
     <StackLayout VerticalOptions="CenterAndExpand" Spacing="10">
-        <Button
-            Clicked="OnSendClick"
 
        <Button
             Clicked="OnScheduleClick"
@@ -13,7 +11,6 @@
             Text="Notificación tipo UNCalendarNotificationTrigger" />
 
         <Button
-            Clicked="OnScheduleClick"
             Clicked="OnSendClick"
             HorizontalOptions="Center"
             Text="Notificación tipo UNTimeIntervalNotificationTrigger" />
