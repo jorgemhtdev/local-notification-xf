@@ -6,11 +6,21 @@
     <StackLayout VerticalOptions="CenterAndExpand" Spacing="10">
         <Button
             Clicked="OnSendClick"
-            HorizontalOptions="Center"
-            Text="Local Notification Con Fecha" />
-        <Button
+
+       <Button
             Clicked="OnScheduleClick"
             HorizontalOptions="Center"
+            Text="Local Notification Con Fecha" />
+            Text="Notificación tipo UNCalendarNotificationTrigger" />
+
+        <Button
+            Clicked="OnScheduleClick"
+            Clicked="OnSendClick"
+            HorizontalOptions="Center"
             Text="Programación De La Notificación" />
+            Text="Notificación tipo UNTimeIntervalNotificationTrigger" />
+
+        <Label x:Name="labelNot" />
+
     </StackLayout>
 </ContentPage>
